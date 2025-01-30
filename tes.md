@@ -60,37 +60,7 @@ Metode Fishbone (Ishikawa) yang Lebih Komprehensif:
 * 6.1. ERD (Entity Relationship Diagram):
 Berikut adalah ERD untuk menggambarkan hubungan antar entitas dalam sistem ini:
 
-'''+-------------------+       +-------------------+       +---------------------+
-|     Atlet         |-------|    Program        |-------|  Penilaian          |
-+-------------------+       +-------------------+       +---------------------+
-| id_atlet (PK)     |       | id_program (PK)   |       | id_penilaian (PK)   |
-| nama              |       | nama_program      |       | id_atlet (FK)       |
-| usia              |       | deskripsi         |       | nilai_teknik        |
-| kesehatan         |       | durasi_latihan    |       | nilai_fisik         |
-| status_fisik      |       | tujuan            |       | nilai_psikologis    |
-| status_psikologis |       +-------------------+       +---------------------+
-+-------------------+                                     
-         |
-         |
-         |
-+-----------------------+
-|   Jadwal Latihan      |
-+-----------------------+
-| id_jadwal (PK)        |
-| id_atlet (FK)         |
-| tanggal               |
-| waktu                 |
-| jenis_latihan         |
-+-----------------------+
-
-+-----------------------+
-|    Pertandingan       |
-+-----------------------+
-| id_pertandingan (PK)  |
-| id_atlet (FK)         |
-| tanggal               |
-| hasil_pertandingan    |
-+-----------------------+'''
+![alt text](<Screenshot 2025-01-30 211034.png>)
 
 * 6.2. Flowchart:
 Flowchart berikut menunjukkan alur sistem secara umum, dari pemilihan atlet hingga penilaian dan pemberian program latihan:
