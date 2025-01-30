@@ -56,7 +56,7 @@ Metode Fishbone (Ishikawa) yang Lebih Komprehensif:
  * 2. Evaluasi Mental: Menggunakan psikometri atau survei untuk mengukur kesejahteraan mental atlet, termasuk tingkat stres, fokus, dan motivasi.
 4. Modul Fasilitas:
  * 1. Pencatatan Fasilitas yang Tersedia: Daftar tempat latihan yang dapat diakses oleh atlet dan fasilitas yang dimiliki.
-
+ 
 * 6.1. ERD (Entity Relationship Diagram):
 Berikut adalah ERD untuk menggambarkan hubungan antar entitas dalam sistem ini:
 ![alt text](<Screenshot 2025-01-30 211034.png>)
@@ -66,7 +66,6 @@ Flowchart berikut menunjukkan alur sistem secara umum, dari pemilihan atlet hing
 ![alt text](<Screenshot 2025-01-30 212637.png>)
 
 * 6.3. Use Case:
-
 Use case diagram berikut menggambarkan interaksi antara aktor (pelatih dan atlet) dan sistem:
 ![alt text](<Screenshot 2025-01-30 212717.png>)
 
