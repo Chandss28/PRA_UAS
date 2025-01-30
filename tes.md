@@ -45,9 +45,9 @@ Metode Fishbone (Ishikawa) yang Lebih Komprehensif:
 
 # 6. Perancangan Sistem yang Diperluas
 1. Modul Manajemen Atlet:
- * 1. Data Pribadi Atlet: Menyimpan data seperti nama, usia, riwayat kesehatan, dan status fisik.
- * 2. Evaluasi Kinerja: Sistem penilaian yang memberikan skor berdasarkan teknik, fisik, dan mental atlet.
- * 3. Penyesuaian Program Pelatihan: Sistem yang memungkinkan pelatih untuk merancang program pelatihan yang disesuaikan dengan kekuatan dan kelemahan atlet.
+    * 1. Data Pribadi Atlet: Menyimpan data seperti nama, usia, riwayat kesehatan, dan status fisik.
+    * 2. Evaluasi Kinerja: Sistem penilaian yang memberikan skor berdasarkan teknik, fisik, dan mental atlet.
+    * 3. Penyesuaian Program Pelatihan: Sistem yang memungkinkan pelatih untuk merancang program pelatihan yang disesuaikan dengan kekuatan dan kelemahan atlet.
 2. Modul Penjadwalan:
  * 1. Jadwal Latihan dan Pertandingan: Manajemen waktu yang efisien antara sesi latihan dan pertandingan.
  * 2. Pengingat dan Notifikasi: Sistem pemberitahuan untuk mengingatkan atlet tentang jadwal dan tugas latihan.
