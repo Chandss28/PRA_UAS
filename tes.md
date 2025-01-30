@@ -57,21 +57,21 @@ Metode Fishbone (Ishikawa) yang Lebih Komprehensif:
 4. Modul Fasilitas:
  * 1. Pencatatan Fasilitas yang Tersedia: Daftar tempat latihan yang dapat diakses oleh atlet dan fasilitas yang dimiliki.
  
-* 6.1. ERD (Entity Relationship Diagram):
+# *6.1. ERD (Entity Relationship Diagram):
 Berikut adalah ERD untuk menggambarkan hubungan antar entitas dalam sistem ini:
 ![alt text](<Screenshot 2025-01-30 211034.png>)
 
-* 6.2. Flowchart:
+# *6.2. Flowchart:
 Flowchart berikut menunjukkan alur sistem secara umum, dari pemilihan atlet hingga penilaian dan pemberian program latihan:
 ![alt text](<Screenshot 2025-01-30 212637.png>)
 
-* 6.3. Use Case:
+# *6.3. Use Case:
 Use case diagram berikut menggambarkan interaksi antara aktor (pelatih dan atlet) dan sistem:
 ![alt text](<Screenshot 2025-01-30 212717.png>)
 
-* 6.4. Susunan Database:
+# *6.4. Susunan Database:
 Berikut adalah struktur tabel yang digunakan untuk menyimpan data dalam sistem ini:
-- Tabel 
+- Tabel Atlet
 ![alt text](<Screenshot 2025-01-30 212758.png>)atlet:
 
 - Tabel program:
@@ -86,31 +86,11 @@ Berikut adalah struktur tabel yang digunakan untuk menyimpan data dalam sistem i
 - Tabel pertandingan:
 ![alt text](<Screenshot 2025-01-30 212937.png>)
 
-* 7. Implementasi Teknologi yang Lebih Rinci:
+# 7. Implementasi Teknologi yang Lebih Rinci:
 Sistem ini akan dikembangkan menggunakan Laravel, Docker, dan MySQL.
 - Laravel:
 Laravel digunakan untuk mengembangkan backend dan frontend sistem. Framework ini menawarkan banyak fitur built-in seperti sistem autentikasi, routing, dan pengelolaan database yang efisien, yang akan sangat membantu dalam membangun sistem yang aman dan terstruktur.
 - Docker:
 Docker digunakan untuk mengelola lingkungan pengembangan secara terisolasi. Dengan menggunakan Docker, pengembangan aplikasi dapat dilakukan di lingkungan yang seragam dan dapat dipindahkan dengan mudah antar mesin pengembang.
 - Konfigurasi Docker untuk Laravel dan MySQL:
-
-version: '3.8'
-services:
-  app:
-    build: .
-    container_name: laravel_app
-    volumes:
-      - .:/var/www/html
-    depends_on:
-      - db
-  db:
-    image: mysql:8
-    container_name: mysql_db
-    restart: always
-    environment:
-      MYSQL_ROOT_PASSWORD: root
-      MYSQL_DATABASE: atlet_renang
-      MYSQL_USER: user
-      MYSQL_PASSWORD: password
-    ports:
-      - "3306:3306"
+![alt text](<Screenshot 2025-01-30 213625.png>)
