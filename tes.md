@@ -67,23 +67,29 @@ Flowchart berikut menunjukkan alur sistem secara umum, dari pemilihan atlet hing
 
 # *6.3. Use Case:
 Use case diagram berikut menggambarkan interaksi antara aktor (pelatih dan atlet) dan sistem:
+
 ![alt text](<Screenshot 2025-01-30 212717.png>)
 
 # *6.4. Susunan Database:
 Berikut adalah struktur tabel yang digunakan untuk menyimpan data dalam sistem ini:
-- Tabel Atlet
-![alt text](<Screenshot 2025-01-30 212758.png>)atlet:
+- Tabel Atlet:
+
+![alt text](<Screenshot 2025-01-30 212758.png>)
 
 - Tabel program:
+
 ![alt text](<Screenshot 2025-01-30 212830.png>)
 
 - Tabel penilaian:
+
 ![alt text](<Screenshot 2025-01-30 212852.png>)
 
 - Tabel jadwal_latihan:
+
 ![alt text](<Screenshot 2025-01-30 212919.png>)
 
 - Tabel pertandingan:
+
 ![alt text](<Screenshot 2025-01-30 212937.png>)
 
 # 7. Implementasi Teknologi yang Lebih Rinci:
@@ -93,4 +99,5 @@ Laravel digunakan untuk mengembangkan backend dan frontend sistem. Framework ini
 - Docker:
 Docker digunakan untuk mengelola lingkungan pengembangan secara terisolasi. Dengan menggunakan Docker, pengembangan aplikasi dapat dilakukan di lingkungan yang seragam dan dapat dipindahkan dengan mudah antar mesin pengembang.
 - Konfigurasi Docker untuk Laravel dan MySQL:
+
 ![alt text](<Screenshot 2025-01-30 213625.png>)
