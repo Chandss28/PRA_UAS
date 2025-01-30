@@ -28,34 +28,34 @@ Tujuan dari penelitian ini adalah untuk merancang dan mengimplementasikan sebuah
 # 5. Metode Analisis yang Lebih Mendalam:
 Metode Fishbone (Ishikawa) yang Lebih Komprehensif:
 1. Sumber Daya Manusia (SDM):
-* Pelatih dan staf yang tidak terlatih dalam teknologi terbaru atau teknik evaluasi berbasis data.
-* Atlet yang belum mengerti pentingnya aspek mental dalam prestasi olahraga.
+    * Pelatih dan staf yang tidak terlatih dalam teknologi terbaru atau teknik evaluasi berbasis data.
+    * Atlet yang belum mengerti pentingnya aspek mental dalam prestasi olahraga.
 2. Metode Latihan:
-* Kurikulum pelatihan yang tidak terstruktur dan tidak memiliki penyesuaian berdasarkan data perkembangan atlet.
-* Tidak ada program pelatihan mental yang cukup mendalam untuk atlet.
+    * Kurikulum pelatihan yang tidak terstruktur dan tidak memiliki penyesuaian berdasarkan data perkembangan atlet.
+    * Tidak ada program pelatihan mental yang cukup mendalam untuk atlet.
 3. Lingkungan:
-* Fasilitas latihan yang tidak merata, terutama di daerah-daerah yang lebih jauh.
-* Kondisi tempat latihan yang kurang ideal untuk memaksimalkan konsentrasi atlet.
+    * Fasilitas latihan yang tidak merata, terutama di daerah-daerah yang lebih jauh.
+    * Kondisi tempat latihan yang kurang ideal untuk memaksimalkan konsentrasi atlet.
 4. Proses:
-* Pengelolaan waktu yang kurang efektif antara latihan dan pertandingan, menyebabkan atlet kelelahan.
-* Sistem evaluasi yang tidak berkelanjutan dan tidak cukup spesifik untuk setiap atlet.
+    * Pengelolaan waktu yang kurang efektif antara latihan dan pertandingan, menyebabkan atlet kelelahan.
+    * Sistem evaluasi yang tidak berkelanjutan dan tidak cukup spesifik untuk setiap atlet.
 5. Material:
-* Peralatan latihan yang terbatas atau kurang tepat untuk melatih keterampilan teknis yang dibutuhkan.
-* Teknologi yang belum dimanfaatkan sepenuhnya dalam proses pelatihan.
+    * Peralatan latihan yang terbatas atau kurang tepat untuk melatih keterampilan teknis yang dibutuhkan.
+    * Teknologi yang belum dimanfaatkan sepenuhnya dalam proses pelatihan.
 
-* 6. Perancangan Sistem yang Diperluas
+# 6. Perancangan Sistem yang Diperluas
 1. Modul Manajemen Atlet:
-* 1. Data Pribadi Atlet: Menyimpan data seperti nama, usia, riwayat kesehatan, dan status fisik.
-* 2. Evaluasi Kinerja: Sistem penilaian yang memberikan skor berdasarkan teknik, fisik, dan mental atlet.
-* 3. Penyesuaian Program Pelatihan: Sistem yang memungkinkan pelatih untuk merancang program pelatihan yang disesuaikan dengan kekuatan dan kelemahan atlet.
+ 1. Data Pribadi Atlet: Menyimpan data seperti nama, usia, riwayat kesehatan, dan status fisik.
+ 2. Evaluasi Kinerja: Sistem penilaian yang memberikan skor berdasarkan teknik, fisik, dan mental atlet.
+ 3. Penyesuaian Program Pelatihan: Sistem yang memungkinkan pelatih untuk merancang program pelatihan yang disesuaikan dengan kekuatan dan kelemahan atlet.
 2. Modul Penjadwalan:
-* 1. Jadwal Latihan dan Pertandingan: Manajemen waktu yang efisien antara sesi latihan dan pertandingan.
-* 2. Pengingat dan Notifikasi: Sistem pemberitahuan untuk mengingatkan atlet tentang jadwal dan tugas latihan.
+ 1. Jadwal Latihan dan Pertandingan: Manajemen waktu yang efisien antara sesi latihan dan pertandingan.
+ 2. Pengingat dan Notifikasi: Sistem pemberitahuan untuk mengingatkan atlet tentang jadwal dan tugas latihan.
 3. Sistem Penilaian dan Evaluasi:
-* 1. Evaluasi Teknik: Menggunakan teknologi analisis video atau sensor untuk memantau teknik tembakan atlet.
-* 2. Evaluasi Mental: Menggunakan psikometri atau survei untuk mengukur kesejahteraan mental atlet, termasuk tingkat stres, fokus, dan motivasi.
+ 1. Evaluasi Teknik: Menggunakan teknologi analisis video atau sensor untuk memantau teknik tembakan atlet.
+ 2. Evaluasi Mental: Menggunakan psikometri atau survei untuk mengukur kesejahteraan mental atlet, termasuk tingkat stres, fokus, dan motivasi.
 4. Modul Fasilitas:
-* 1. Pencatatan Fasilitas yang Tersedia: Daftar tempat latihan yang dapat diakses oleh atlet dan fasilitas yang dimiliki.
+ 1. Pencatatan Fasilitas yang Tersedia: Daftar tempat latihan yang dapat diakses oleh atlet dan fasilitas yang dimiliki.
 
 * 6.1. ERD (Entity Relationship Diagram):
 Berikut adalah ERD untuk menggambarkan hubungan antar entitas dalam sistem ini:
