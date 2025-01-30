@@ -45,9 +45,9 @@ Metode Fishbone (Ishikawa) yang Lebih Komprehensif:
 
 # 6. Perancangan Sistem yang Diperluas
 1. Modul Manajemen Atlet:
-    * 1. Data Pribadi Atlet: Menyimpan data seperti nama, usia, riwayat kesehatan, dan status fisik.
-    * 2. Evaluasi Kinerja: Sistem penilaian yang memberikan skor berdasarkan teknik, fisik, dan mental atlet.
-    * 3. Penyesuaian Program Pelatihan: Sistem yang memungkinkan pelatih untuk merancang program pelatihan yang disesuaikan dengan kekuatan dan kelemahan atlet.
+ * 1. Data Pribadi Atlet: Menyimpan data seperti nama, usia, riwayat kesehatan, dan status fisik.
+ * 2. Evaluasi Kinerja: Sistem penilaian yang memberikan skor berdasarkan teknik, fisik, dan mental atlet.
+ * 3. Penyesuaian Program Pelatihan: Sistem yang memungkinkan pelatih untuk merancang program pelatihan yang disesuaikan dengan kekuatan dan kelemahan atlet.
 2. Modul Penjadwalan:
  * 1. Jadwal Latihan dan Pertandingan: Manajemen waktu yang efisien antara sesi latihan dan pertandingan.
  * 2. Pengingat dan Notifikasi: Sistem pemberitahuan untuk mengingatkan atlet tentang jadwal dan tugas latihan.
@@ -59,125 +59,33 @@ Metode Fishbone (Ishikawa) yang Lebih Komprehensif:
 
 * 6.1. ERD (Entity Relationship Diagram):
 Berikut adalah ERD untuk menggambarkan hubungan antar entitas dalam sistem ini:
-
 ![alt text](<Screenshot 2025-01-30 211034.png>)
 
 * 6.2. Flowchart:
 Flowchart berikut menunjukkan alur sistem secara umum, dari pemilihan atlet hingga penilaian dan pemberian program latihan:
-+---------------------------------+
-|   Mulai                       |
-+---------------------------------+
-              |
-              v
-+----------------------------------+
-|  Data Pribadi Atlet Dimasukkan  |
-+----------------------------------+
-              |
-              v
-+----------------------------------+
-|  Program Pelatihan Disesuaikan  |
-+----------------------------------+
-              |
-              v
-+----------------------------------+
-|  Penjadwalan Latihan Ditentukan |
-+----------------------------------+
-              |
-              v
-+----------------------------------+
-|  Evaluasi Latihan dan Pertandingan|
-+----------------------------------+
-              |
-              v
-+----------------------------------+
-|  Hasil dan Feedback Diberikan   |
-+----------------------------------+
-              |
-              v
-+----------------------------------+
-|   Selesai                       |
-+----------------------------------+
+![alt text](<Screenshot 2025-01-30 212637.png>)
 
 * 6.3. Use Case:
 
 Use case diagram berikut menggambarkan interaksi antara aktor (pelatih dan atlet) dan sistem:
-              +------------+
-              |  Pelatih   |
-              +------------+
-                    |
-    +----------------------------------------+
-    |                                        |
-+---------------+                       +---------------+
-|  Melihat     |                       |  Menyusun     |
-|  Data Atlet  |                       |  Program Latihan|
-+---------------+                       +---------------+
-                    |
-                    v
-              +------------+
-              |  Sistem    |
-              +------------+
-                    |
-        +----------------------+
-        |                      |
-+----------------+        +------------------+
-|  Menyusun     |        |  Menilai Atlet   |
-|  Jadwal Latihan|        +------------------+
-+----------------+                    |
-                    v
-              +-------------------+
-              |  Memberikan Hasil |
-              |  dan Feedback     |
-              +-------------------+
+![alt text](<Screenshot 2025-01-30 212717.png>)
 
 * 6.4. Susunan Database:
 Berikut adalah struktur tabel yang digunakan untuk menyimpan data dalam sistem ini:
-- Tabel atlet:
-CREATE TABLE atlet (
-    id_atlet INT AUTO_INCREMENT PRIMARY KEY,
-    nama VARCHAR(100),
-    usia INT,
-    kesehatan TEXT,
-    status_fisik TEXT,
-    status_psikologis TEXT
-);
+- Tabel 
+![alt text](<Screenshot 2025-01-30 212758.png>)atlet:
 
 - Tabel program:
-CREATE TABLE program (
-    id_program INT AUTO_INCREMENT PRIMARY KEY,
-    nama_program VARCHAR(100),
-    deskripsi TEXT,
-    durasi_latihan INT,
-    tujuan TEXT
-);
+![alt text](<Screenshot 2025-01-30 212830.png>)
 
 - Tabel penilaian:
-CREATE TABLE penilaian (
-    id_penilaian INT AUTO_INCREMENT PRIMARY KEY,
-    id_atlet INT,
-    nilai_teknik DECIMAL(5,2),
-    nilai_fisik DECIMAL(5,2),
-    nilai_psikologis DECIMAL(5,2),
-    FOREIGN KEY (id_atlet) REFERENCES atlet(id_atlet)
-);
+![alt text](<Screenshot 2025-01-30 212852.png>)
 
 - Tabel jadwal_latihan:
-CREATE TABLE jadwal_latihan (
-    id_jadwal INT AUTO_INCREMENT PRIMARY KEY,
-    id_atlet INT,
-    tanggal DATE,
-    waktu TIME,
-    jenis_latihan VARCHAR(50),
-    FOREIGN KEY (id_atlet) REFERENCES atlet(id_atlet)
-);
+![alt text](<Screenshot 2025-01-30 212919.png>)
 
 - Tabel pertandingan:
-CREATE TABLE pertandingan (
-    id_pertandingan INT AUTO_INCREMENT PRIMARY KEY,
-    id_atlet INT,
-    tanggal DATE,
-    hasil_pertandingan VARCHAR(50),
-    FOREIGN KEY (id_atlet) REFERENCES atlet(id_atlet)
-);
+![alt text](<Screenshot 2025-01-30 212937.png>)
 
 * 7. Implementasi Teknologi yang Lebih Rinci:
 Sistem ini akan dikembangkan menggunakan Laravel, Docker, dan MySQL.
